@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :http => "https://github.com/littlelights-ai/tf_pod/releases/download/1.0/tensorflow.tar.gz" }
+  s.source = { :http => "https://github.com/littlelights-ai/tf_pod/releases/download/1.1/tensorflow.tar.gz" }
   s.preserve_paths = "include/**"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,6 +79,7 @@ Pod::Spec.new do |s|
       "${PODS_ROOT}/#{s.name}/include",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/protobuf/src",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads",
+      "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/absl",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/eigen",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/gen/proto",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/nsync/public",
